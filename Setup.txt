@@ -1,0 +1,14 @@
+Set up application.properties file in your SpringBoot Project
+
+For mongoDB local instance ,
+# we will use localhost as host and any primary mongodb port i.e 27017 as MongoDB port
+# setting mongodb Instance URI
+spring.data.mongodb.uri=mongodb://localhost:27017/AssignmentPotral
+# Local MongoDB client
+mongo_client=mongodb://localhost:27017
+
+# Setting Database Name according to your requirements
+db=AssignmentPotral
+
+You have to download MongoDB Compass to view or access your Saved Data directly.
+
